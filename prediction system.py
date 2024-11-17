@@ -36,8 +36,8 @@ elevation = 6  # Elevation in meters
 
 # Serial setup for communication with Arduino
 try:
-    ser_azimuth = serial.Serial('COM3', 9600, timeout=5)
-    ser_altitude = serial.Serial('COM6', 9600, timeout=5)
+    ser_azimuth = serial.Serial('COM7', 9600, timeout=5)
+    ser_altitude = serial.Serial('COM8', 9600, timeout=5)
 except Exception as e:
     print(f"Error connecting to serial port: {e}")
     ser = None
@@ -141,8 +141,8 @@ import time
 
 # Persistent Serial Connection Setup
 try:
-    ser_azimuth = serial.Serial('COM3', 9600, timeout=5)
-    ser_altitude = serial.Serial('COM6', 9600, timeout=5)
+    ser_azimuth = serial.Serial('COM7', 9600, timeout=5)
+    ser_altitude = serial.Serial('COM8', 9600, timeout=5)
     pytime.sleep(2)  # Allow time for serial connections to establish
 except serial.SerialException as e:
     print(f"Error initializing serial ports: {e}")
@@ -154,8 +154,8 @@ import time as pytime
 # Ensure all serial connections are closed if held by previous instances
 def initialize_serial():
     try:
-        ser_azimuth = serial.Serial('COM3', 9600, timeout=5)
-        ser_altitude = serial.Serial('COM6', 9600, timeout=5)
+        ser_azimuth = serial.Serial('COM7', 9600, timeout=5)
+        ser_altitude = serial.Serial('COM8', 9600, timeout=5)
         pytime.sleep(2)  # Allow time for serial connections to establish
         return ser_azimuth, ser_altitude
     except serial.SerialException as e:

@@ -68,7 +68,7 @@ def get_azimuth_altitude(celestial_id):
 def run_prediction_system():
     """Run the prediction system and wait for it to close."""
     try:
-        subprocess.run(["python", "C:\\Users\\gkris\Downloads\\all files_celestial tracking system\\all files_celestial tracking system\\prediction system.py"], check=True)
+        subprocess.run(["python", "D:\\Users\\meetk\\Documents\\VK High school\\Std 10\\Math Quadrennial\\prediction system.py"], check=True)
         print("Prediction system executed and closed successfully.")
     except subprocess.CalledProcessError as e:
         print(f"Error executing the Python prediction system: {e}")
@@ -76,9 +76,9 @@ def run_prediction_system():
 def reopen_serial_connections():
     """Reopen serial connections after prediction system execution."""
     try:
-        ser_lcd = serial.Serial('COM4', 9600, timeout=5)  # LCD/UI communication (COM9)
-        ser_azimuth = serial.Serial('COM6', 9600, timeout=5)  # Azimuth motor control (COM7)
-        ser_altitude = serial.Serial('COM3', 9600, timeout=5)  # Altitude motor control (COM8)
+        ser_lcd = serial.Serial('COM9', 9600, timeout=5)  # LCD/UI communication (COM9)
+        ser_azimuth = serial.Serial('COM7', 9600, timeout=5)  # Azimuth motor control (COM7)
+        ser_altitude = serial.Serial('COM8', 9600, timeout=5)  # Altitude motor control (COM8)
         time.sleep(2)  # Allow time for connections to establish
         print("Serial connections reopened.")
         return ser_lcd, ser_azimuth, ser_altitude
@@ -90,9 +90,9 @@ def main():
     """Main function to handle communication over serial connections."""
     try:
         # Open the initial serial connections
-        ser_lcd = serial.Serial('COM4', 9600, timeout=5)  # LCD/UI communication (COM9)
-        ser_azimuth = serial.Serial('COM3', 9600, timeout=5)  # Azimuth motor control (COM7)
-        ser_altitude = serial.Serial('COM6', 9600, timeout=5)  # Altitude motor control (COM8)
+        ser_lcd = serial.Serial('COM9', 9600, timeout=5)  # LCD/UI communication (COM9)
+        ser_azimuth = serial.Serial('COM7', 9600, timeout=5)  # Azimuth motor control (COM7)
+        ser_altitude = serial.Serial('COM8', 9600, timeout=5)  # Altitude motor control (COM8)
         time.sleep(2)  # Allow time for connections to establish
     except serial.SerialException as e:
         print(f"Error: Cannot open serial ports. {e}")

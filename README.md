@@ -21,7 +21,7 @@ A system that aims to track the real-time location and predict the future moveme
 | Jumper Wires | [Amazon](https://www.amazon.in/Jumper-Wire-Male-to-Female-20cm-20-Pcs/dp/B07D3Y917R) |
 | Breadboard | [Amazon](https://www.amazon.in/ELECFY-Breadboard-830-Tie-Points-Self-Adhesive-PCB-Board-Arduino-Raspberry-Pi-Projects/dp/B07D3Y917R) |
 
-##Install dependencies:
+## Install dependencies:
 ```bash
 pip install numpy
 pip install astropy
@@ -30,12 +30,12 @@ pip install plotly
 pip install jpl.horizons
 ```
 
-##Steps for Construction
+## Steps for Construction
 
-##Usage
+## Usage
 
-##Scope for Improvement
+## Scope for Improvement
 
-##Contributors
+## Contributors
 
-##Licence
+## Licence

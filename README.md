@@ -67,6 +67,7 @@ Repeat the above steps for the altitude stepper motor:
 **`Note`** To enable the functionality of rotating the shaft anticlockwise, for the altitude and azimuth stepper motors, when pointing at the location of celestial bodies, or when tracing their orbit (in the case of the prediction system), interchange the connections of the input ports of the motor to Digital ports of the Arduino, and test run the code to check if the motors move anticlockwise, iterate till the desired movement is achieved. (When testing for positive angles, one of the motors must move anticlockwise, and the other must, for negative angles similarly.)
 
 4. Connect the LCD User Interface (Arduino 3):
+   
 Hardware Setup:
 - Connect the 16x2 LCD directly to the third Arduino.
 - Attach push buttons for mode and celestial object selection.
@@ -142,13 +143,13 @@ Real-Time Celestial Object Movement Tracking and Prediction System is now ready 
 ### Operating the LCD Interface
 1. Start the System:
 
-> Turn on the system by connecting the LCD Interface Arduino to power.
+- Turn on the system by connecting the LCD Interface Arduino to power.
 
-> The LCD will display a welcome screen and prompt you to select the mode.
+- The LCD will display a welcome screen and prompt you to select the mode.
 
 2. Select the Mode:
-> Use the Up (D8) and Down (D9) buttons to navigate between:
->> Real-Time Mode: Tracks celestial objects in real time.
+- Use the Up (D8) and Down (D9) buttons to navigate between:
+-- Real-Time Mode: Tracks celestial objects in real time.
 
 >> Prediction Mode: Predicts the future positions of celestial objects.
 

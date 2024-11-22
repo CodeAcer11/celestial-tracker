@@ -261,3 +261,6 @@ Krish Praneeth G, Vishnu Kumar K
 
 Vishnu Kumar K
 > vkneutromaster@gmail.com
+
+Krish Praneeth.G
+> gkrishpraneeth@gmail.com

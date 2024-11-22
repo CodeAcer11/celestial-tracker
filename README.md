@@ -136,28 +136,28 @@ Real-Time Celestial Object Movement Tracking and Prediction System is now ready 
 
 ## Scope for Improvement
 1. Enhance Accuracy of Predictions:
-> Incorporate more accurate orbital mechanics using perturbation models for a better representation of celestial orbits.
-> Integrate a GPS module for real-time observer location updates to improve azimuth and altitude calculations.
+- Incorporate more accurate orbital mechanics using perturbation models for a better representation of celestial orbits.
+- Integrate a GPS module for real-time observer location updates to improve azimuth and altitude calculations.
 
-> Adapt for Space Debris Tracking:
+- Adapt for Space Debris Tracking:
 Modify the system to monitor and predict the location of space debris, providing valuable assistance to satellite operators and researchers.
 
-> Integrate Advanced Sensors:
+- Integrate Advanced Sensors:
 Add gyroscopic and accelerometer sensors to the motors for more precise angular positioning.
 
-> Expand Usability to Deep-Space Objects:
+- Expand Usability to Deep-Space Objects:
 Include calculations for far-away celestial objects like exoplanets, quasars, or comets.
 
-> Portability and Weatherproofing:
+- Portability and Weatherproofing:
 Design a compact, weather-resistant enclosure for outdoor use under varying weather conditions.
 
-> Multi-Object Tracking:
+- Multi-Object Tracking:
 Allow simultaneous tracking of multiple celestial bodies by integrating additional stepper motors and a modular motor driver system.
 
-> User Accessibility:
+- User Accessibility:
 Add voice recognition or smartphone app control for seamless user interaction.
 
-> Renewable Power Integration:
+- Renewable Power Integration:
 Power the system using solar panels or other renewable energy sources for sustainability.
 
 ## Contributors

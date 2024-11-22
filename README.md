@@ -42,14 +42,14 @@ Mount the Arduino boards and connect them to your PC via USB.
 
 2. Connect the Azimuth Stepper Motor:
 Plug the azimuth stepper motor into the ULN2003 driver.
-> Connect the ULN2003 driver pins to the Arduino:
-IN1 to D8
-IN2 to D9
-IN3 to D10
-IN4 to D11
-
-> Connect ULN2003 VCC to the Arduino 5V pin.
-> Connect ULN2003 GND to the Arduino GND pin.
+| Arduino Pin | ULN2003 Pin |
+|---|---|
+| D8 | IN1 |
+| D9 | IN2 |
+| D10 | IN3 |
+| D11 | IN4 |
+| 5V | VCC |
+| GND | GND |
 
 3. Connect the Altitude Stepper Motor:
 Repeat the above steps for the altitude stepper motor:

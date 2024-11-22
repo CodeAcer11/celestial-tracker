@@ -7,7 +7,7 @@ A system that aims to track the real-time location and predict the future moveme
 - [Steps for Construction](#steps-for-construction)
 - [Usage](#usage)
 - [Scope for Improvement](#scope-for-improvement)
-- [Contributors](#contributing)
+- [Contributors](#contributors)
 - [License](#license)
 
 ## Materials Required 

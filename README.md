@@ -73,31 +73,39 @@ Hardware Setup:
 > Connect servo motors for azimuth and altitude to control based on received data.
 
 > Connections for LCD:
-RS → D12
-E → D11
-D4 → D5
-D5 → D4
-D6 → D3
-D7 → D2
-LCD VCC → Arduino 5V pin.
-LCD GND → Arduino GND pin.
+> 
+| Arduino Pin | LCD Pin |
+|---|---|
+| D12 | RS |
+| D11 | E |
+| D5 | D4 |
+| D4 | D5 |
+| D3 | D6 |
+| D2 | D7 |
+| 5V | VCC |
+| GND | GND |
 
 > Connect a 10kΩ potentiometer for contrast:
 One side to VCC, one side to GND, and the middle wiper pin to LCD V0.
 
-> Connections for Buttons:
-ButtonUp → D8
-ButtonDown → D9
-ButtonSelect → D10
-ButtonReset → D13
+| Arduino Pin | Button |
+|---|---|
+| D8 | ButtonUp |
+| D9 | ButtonDown |
+| D10 | ButtonSelect |
+| D13 | ButtonReset |
+
 The other side of each button to GND.
 Use Arduino’s internal pull-up resistors.
 
 > Connections for Servos:
-ServoAzimuth (signal pin) → D6.
-ServoAltitude (signal pin) → D7.
-Servo VCC → Arduino 5V pin.
-Servo GND → Arduino GND pin.
+> 
+| Arduino Pin | Servo |
+|---|---|
+| D6 | ServoAzimuth |
+| D7 | ServoAltitude |
+| 5V | VCC |
+| GND | GND |
 
 
 5. Power the Arduinos:

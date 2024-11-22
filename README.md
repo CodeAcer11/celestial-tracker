@@ -248,7 +248,7 @@ Vishnu Kumar K
 > vkneutromaster@gmail.com
 
 Krish Praneeth G
-> 
+> gkrishpraneeth@gmail.com
 
 
 ## Licence

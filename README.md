@@ -68,9 +68,9 @@ Repeat the above steps for the altitude stepper motor:
 
 4. Connect the LCD User Interface (Arduino 3):
 Hardware Setup:
-> Connect the 16x2 LCD directly to the third Arduino.
-> Attach push buttons for mode and celestial object selection.
-> Connect servo motors for azimuth and altitude to control based on received data.
+- Connect the 16x2 LCD directly to the third Arduino.
+- Attach push buttons for mode and celestial object selection.
+- Connect servo motors for azimuth and altitude to control based on received data.
 
 > Connections for LCD:
 > 

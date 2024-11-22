@@ -42,6 +42,7 @@ Mount the Arduino boards and connect them to your PC via USB.
 
 2. Connect the Azimuth Stepper Motor:
 Plug the azimuth stepper motor into the ULN2003 driver.
+
 | Arduino Pin | ULN2003 Pin |
 |---|---|
 | D8 | IN1 |

@@ -163,7 +163,7 @@ Real-Time Celestial Object Movement Tracking and Prediction System is now ready 
 > Press Select (D10) to confirm your choice.
 
 2. Track Object:
-> The LCD displays "Tracking <object name>" and waits for azimuth and altitude data from the Python program.
+> The LCD displays **`Tracking <object name>`** and waits for azimuth and altitude data from the Python program.
 > The Python program calculates and sends the azimuth and altitude of the selected object to the LCD Interface Arduino.
 > The LCD shows the received azimuth and altitude.
 > Simultaneously, the motors adjust their positions to point towards the selected celestial object.

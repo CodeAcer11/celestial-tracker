@@ -103,6 +103,21 @@ Connect 5V DC to the ULN2003 VCC pins and ensure the GND is common with the Ardu
 6. Test Connections:
 Once all 3 Arduino circuits are connected to the computer, test the code by running the file 'serial connection code.py' in a text editor or IDE.
 
+### Create an Elegant Case
+1. LCD User Interface
+- Pierce 4 circular holes on the larger face of a cuboidal cardboard box, to make the process simple
+- Cut out a rectangular hole on the same face, to fit the LCD just enough
+- Enclose the Arduino circuit in which the LCD is connected, in the box, and fix the buttons and the display in their appropriate positions.
+- Decorate the model for a sleek appearance.
+
+2. Celestial Object Locator
+- Mount the azimuth motor on a tripod stand, and carefully glue a circular piece of cardboard to the motor's shaft. [The model can work without a tripod too]
+- Glue the altitude motor's base on this cardboard such that the shaft of the motor is horizontally in line with ground level (geographical horizon).
+- Attach a toothpick or a wooden stick of desired length to the shaft of the altitude motor such that it points towards the direction from which when tested, the motor moves upward for positive altitude angle values, and downward for negative altitude angle values.
+- Stick a compass if needed, to the tripod, to aid in orienting the altitude motor's pointing needle towards north.
+
+Real-Time Celestial Object Movement Tracking and Prediction System is now ready to use.
+
 ## Usage
 
 ## Scope for Improvement

@@ -3,10 +3,10 @@ A system that aims to track the real-time location and predict the future moveme
 
 ## Table of Contents
 - [Installation](#installation)
-- [Materials Required](#materialsrequired)
-- [Steps for Construction](#stepsforconstruction)
+- [Materials Required](#materials-required)
+- [Steps for Construction](#steps-for-construction)
 - [Usage](#usage)
-- [Scope for Improvement](#scopeforimprovement)
+- [Scope for Improvement](#scope-for-improvement)
 - [Contributors](#contributing)
 - [License](#license)
 
@@ -21,7 +21,8 @@ A system that aims to track the real-time location and predict the future moveme
 | Jumper Wires | [Amazon](https://www.amazon.in/Jumper-Wire-Male-to-Female-20cm-20-Pcs/dp/B07D3Y917R) |
 | Breadboard | [Amazon](https://www.amazon.in/ELECFY-Breadboard-830-Tie-Points-Self-Adhesive-PCB-Board-Arduino-Raspberry-Pi-Projects/dp/B07D3Y917R) |
 
-## Install dependencies:
+## Installation:
+Install dependencies:
 ```bash
 pip install numpy
 pip install astropy

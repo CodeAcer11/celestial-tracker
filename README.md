@@ -54,11 +54,15 @@ Plug the azimuth stepper motor into the ULN2003 driver.
 
 3. Connect the Altitude Stepper Motor:
 Repeat the above steps for the altitude stepper motor:
-IN1 to D2
-IN2 to D3
-IN3 to D4
-IN4 to D5
-> Connect ULN2003 VCC and GND to the Arduino 5V and GND pins, respectively.
+
+| Arduino Pin | ULN2003 Pin |
+|---|---|
+| D2 | IN1 |
+| D3 | IN2 |
+| D4 | IN3 |
+| D5 | IN4 |
+| 5V | VCC |
+| GND | GND |
 
 **`Note`** To enable the functionality of rotating the shaft anticlockwise, for the altitude and azimuth stepper motors, when pointing at the location of celestial bodies, or when tracing their orbit (in the case of the prediction system), interchange the connections of the input ports of the motor to Digital ports of the Arduino, and test run the code to check if the motors move anticlockwise, iterate till the desired movement is achieved. (When testing for positive angles, one of the motors must move anticlockwise, and the other must, for negative angles similarly.)
 

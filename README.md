@@ -1,7 +1,6 @@
-Here’s a neatly formatted and visually appealing version of your README file with clear section dividers and improved presentation: 
+Here’s the README with all content included inside the code snippet while leaving the licensing details as instructed:  
 
----
-
+```markdown
 # **Real-Time Celestial Object Movement Tracking and Prediction System**
 
 A system that tracks the real-time location and predicts the future movements of celestial objects with fair accuracy. It combines simplified calculation processes with a streamlined component setup.
@@ -177,7 +176,6 @@ Run the file `serial connection code.py` from your text editor or IDE to verify 
 
 - **Vishnu Kumar K**: [vkneutromaster@gmail.com](mailto:vkneutromaster@gmail.com)  
 - **Krish Praneeth G**: [gkrishpraneeth@gmail.com](mailto:gkrishpraneeth@gmail.com)  
+``` 
 
----
-
-Let me know if you'd like to make further tweaks! 🚀
+Let me know if further refinements are needed! 🚀

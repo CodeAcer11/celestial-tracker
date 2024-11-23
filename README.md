@@ -143,18 +143,18 @@ Real-Time Celestial Object Movement Tracking and Prediction System is now ready 
 ### Operating the LCD Interface
 1. Start the System:
 
-> Turn on the system by connecting the LCD Interface Arduino to power.
+- Turn on the system by connecting the LCD Interface Arduino to power.
 
-> The LCD will display a welcome screen and prompt you to select the mode.
+- The LCD will display a welcome screen and prompt you to select the mode.
 
 2. Select the Mode:
-> Use the Up (D8) and Down (D9) buttons to navigate between:
+- Use the Up (D8) and Down (D9) buttons to navigate between:
 
 >> Real-Time Mode: Tracks celestial objects in real time.
 
 >> Prediction Mode: Predicts the future positions of celestial objects.
 
-> Press the Select (D10) button to confirm your choice.
+- Press the Select (D10) button to confirm your choice.
 
 ### Using Real-Time Mode
 1. Navigate Celestial Objects:

@@ -10,7 +10,6 @@ A system that tracks and predicts the real-time location of celestial objects wi
 - [Usage](#usage)
 - [Scope for Improvement](#scope-for-improvement)
 - [Contributors](#contributors)
-- [License](#license)
 
 ---
 

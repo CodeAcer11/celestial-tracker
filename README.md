@@ -110,9 +110,9 @@ Use Arduino’s internal pull-up resistors.
 
 
 5. Power the Arduinos:
-> If running on USB power:
+- If running on USB power:
 Ensure the three Arduinos are connected to your PC, via three different USB ports. This is only possible in computers with at least 3 ports. Make sure the motors are connected to USB 3.0 ports, and the LCD Interface Circuit to the other port, if available, to ensure efficient power supply.
-> If using an external power supply:
+- If using an external power supply:
 Connect 5V DC to the ULN2003 VCC pins and ensure the GND is common with the Arduino.
 
 6. Test Connections:

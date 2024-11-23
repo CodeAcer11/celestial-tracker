@@ -135,6 +135,17 @@ Repeat the steps for the altitude stepper motor:
 2. **Enter Values**: Provide observation start/stop dates and prediction times.
 3. **Observe and Record**: The system predicts positions and updates the motors and 3D visualization.
 
+### Maintaining and Troubleshooting
+1. **Calibrate Motors**: Test and ensure both motors move in the correct direction for positive and negative angles. If the movement is incorrect, swap the motor connections and re-test.
+
+2. **Debug Serial Communication**: Use the Arduino IDE's Serial Monitor to verify that each Arduino correctly receives data from the Python program.
+
+3. **Reset for Errors**: If any issue arises during tracking or prediction, press the Reset (D13) button to return to the main menu.
+   
+4. **Check Hardware Connections**: Ensure all wires and connections are secure. Verify that the power supply is adequate for the motors and servos.
+
+5. **Note**: To enable the functionality of rotating the shaft anticlockwise for the altitude and azimuth stepper motors when pointing at celestial bodies or tracing their orbits, interchange the connections of the motor's input ports to the Arduino's Digital ports. Test-run the code to check if the motors move anticlockwise. Iterate until the desired movement is achieved. One of the motors must move anticlockwise for positive angles, and for negative angles, similarly.
+
 ---
 
 ## Scope for Improvement

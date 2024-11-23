@@ -1,5 +1,5 @@
 # Real-Time Celestial Object Movement Tracking and Prediction System
-A system that tracks and predicts the real-time location of celestial objects with simplified calculations and component setup. To view the project demo and the computations, please click [here]('tinyurl.com/celestialtracker').
+A system that tracks and predicts the real-time location of celestial objects with simplified calculations and component setup. To view the project demo and the computations, please click [here](https://tinyurl.com/celestialtracker).
 
 ---
 
